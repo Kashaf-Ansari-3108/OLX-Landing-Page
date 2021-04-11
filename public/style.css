@@ -18,6 +18,9 @@ body{
     flex-wrap: wrap;
     background-color: #f7f8f8;
     padding: 10px;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
 }
 .logo>img{
     height: 30px;
@@ -75,7 +78,9 @@ body{
 }
 /* Sub nav */
 
-
+.subnav{
+    margin-top: 100px;
+}
 .subnav li{
     display: inline;
    justify-content: space-between;
